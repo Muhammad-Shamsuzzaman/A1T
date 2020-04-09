@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test name="Default test(failed)">
+    <classes>
+      <class name="HomeWorkMar22.phpTravels_hwB">
+        <methods>
+          <include name="validateSignUp"/>
+          <include name="validateLastName"/>
+          <include name="validatePhone"/>
+          <include name="validateConfirmPassword"/>
+          <include name="validateFirstName"/>
+          <include name="beforeTest"/>
+          <include name="validateEmail"/>
+          <include name="afterTest"/>
+          <include name="validatePassword"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- HomeWorkMar22.phpTravels_hwB -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

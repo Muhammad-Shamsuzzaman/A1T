@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="9" passed="9" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Entering John in the First Name Text Box]]>
+    </line>
+    <line>
+      <![CDATA[Entering Stewart in the Last Name Text Box]]>
+    </line>
+    <line>
+      <![CDATA[Entering 7031234567 in the Phone Text Box]]>
+    </line>
+    <line>
+      <![CDATA[Entering johnstewart@yahoo.com in the Email Text Box]]>
+    </line>
+    <line>
+      <![CDATA[Entering Abcd1234 in the Password Text Box]]>
+    </line>
+    <line>
+      <![CDATA[Entering Abcd1234 in the Confirm Password Text Box]]>
+    </line>
+    <line>
+      <![CDATA[Verifying Text of the WebElement signup]]>
+    </line>
+    <line>
+      <![CDATA[Verifying Title of the page]]>
+    </line>
+    <line>
+      <![CDATA[Verifying Url of the page]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2020-04-09T14:51:14Z" name="Default suite" finished-at="2020-04-09T14:51:36Z" duration-ms="21992">
+    <groups>
+    </groups>
+    <test started-at="2020-04-09T14:51:14Z" name="Default test" finished-at="2020-04-09T14:51:36Z" duration-ms="21992">
+      <class name="HomeWorkMar22.phpTravels_hwB">
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:HomeWorkMar22.phpTravels_hwB@543588e6]" started-at="2020-04-09T10:51:14Z" name="beforeTest" finished-at="2020-04-09T10:51:27Z" duration-ms="13393" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:HomeWorkMar22.phpTravels_hwB@543588e6]" started-at="2020-04-09T10:51:27Z" name="beforeMethod" finished-at="2020-04-09T10:51:28Z" duration-ms="500" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="validateFirstName()[pri:1, instance:HomeWorkMar22.phpTravels_hwB@543588e6]" started-at="2020-04-09T10:51:28Z" name="validateFirstName" finished-at="2020-04-09T10:51:28Z" duration-ms="201" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Entering John in the First Name Text Box]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- validateFirstName -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:HomeWorkMar22.phpTravels_hwB@543588e6]" started-at="2020-04-09T10:51:28Z" name="beforeMethod" finished-at="2020-04-09T10:51:29Z" duration-ms="501" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="validateLastName()[pri:2, instance:HomeWorkMar22.phpTravels_hwB@543588e6]" started-at="2020-04-09T10:51:29Z" name="validateLastName" finished-at="2020-04-09T10:51:29Z" duration-ms="159" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Entering Stewart in the Last Name Text Box]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- validateLastName -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:HomeWorkMar22.phpTravels_hwB@543588e6]" started-at="2020-04-09T10:51:29Z" name="beforeMethod" finished-at="2020-04-09T10:51:29Z" duration-ms="501" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="validatePhone()[pri:3, instance:HomeWorkMar22.phpTravels_hwB@543588e6]" started-at="2020-04-09T10:51:29Z" name="validatePhone" finished-at="2020-04-09T10:51:29Z" duration-ms="183" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Entering 7031234567 in the Phone Text Box]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- validatePhone -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:HomeWorkMar22.phpTravels_hwB@543588e6]" started-at="2020-04-09T10:51:29Z" name="beforeMethod" finished-at="2020-04-09T10:51:30Z" duration-ms="501" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="validateEmail()[pri:4, instance:HomeWorkMar22.phpTravels_hwB@543588e6]" started-at="2020-04-09T10:51:30Z" name="validateEmail" finished-at="2020-04-09T10:51:30Z" duration-ms="312" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Entering johnstewart@yahoo.com in the Email Text Box]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- validateEmail -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:HomeWorkMar22.phpTravels_hwB@543588e6]" started-at="2020-04-09T10:51:30Z" name="beforeMethod" finished-at="2020-04-09T10:51:31Z" duration-ms="502" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="validatePassword()[pri:5, instance:HomeWorkMar22.phpTravels_hwB@543588e6]" started-at="2020-04-09T10:51:31Z" name="validatePassword" finished-at="2020-04-09T10:51:31Z" duration-ms="174" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Entering Abcd1234 in the Password Text Box]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- validatePassword -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:HomeWorkMar22.phpTravels_hwB@543588e6]" started-at="2020-04-09T10:51:31Z" name="beforeMethod" finished-at="2020-04-09T10:51:31Z" duration-ms="500" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="validateConfirmPassword()[pri:6, instance:HomeWorkMar22.phpTravels_hwB@543588e6]" started-at="2020-04-09T10:51:31Z" name="validateConfirmPassword" finished-at="2020-04-09T10:51:32Z" duration-ms="182" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Entering Abcd1234 in the Confirm Password Text Box]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- validateConfirmPassword -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:HomeWorkMar22.phpTravels_hwB@543588e6]" started-at="2020-04-09T10:51:32Z" name="beforeMethod" finished-at="2020-04-09T10:51:32Z" duration-ms="501" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="validateSignUp()[pri:7, instance:HomeWorkMar22.phpTravels_hwB@543588e6]" started-at="2020-04-09T10:51:32Z" name="validateSignUp" finished-at="2020-04-09T10:51:32Z" duration-ms="53" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Verifying Text of the WebElement signup]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- validateSignUp -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:HomeWorkMar22.phpTravels_hwB@543588e6]" started-at="2020-04-09T10:51:32Z" name="beforeMethod" finished-at="2020-04-09T10:51:33Z" duration-ms="500" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="validateTitle()[pri:8, instance:HomeWorkMar22.phpTravels_hwB@543588e6]" started-at="2020-04-09T10:51:33Z" name="validateTitle" finished-at="2020-04-09T10:51:33Z" duration-ms="19" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Verifying Title of the page]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- validateTitle -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:HomeWorkMar22.phpTravels_hwB@543588e6]" started-at="2020-04-09T10:51:33Z" name="beforeMethod" finished-at="2020-04-09T10:51:33Z" duration-ms="501" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="validateUrl()[pri:9, instance:HomeWorkMar22.phpTravels_hwB@543588e6]" started-at="2020-04-09T10:51:33Z" name="validateUrl" finished-at="2020-04-09T10:51:33Z" duration-ms="20" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Verifying Url of the page]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- validateUrl -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:HomeWorkMar22.phpTravels_hwB@543588e6]" started-at="2020-04-09T10:51:33Z" name="afterTest" finished-at="2020-04-09T10:51:36Z" duration-ms="2716" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- HomeWorkMar22.phpTravels_hwB -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

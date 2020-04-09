@@ -1,0 +1,25 @@
+package HomeWorkMar1;
+
+public class HomeWorkE {
+
+	public static void main(String[] args) throws InterruptedException {
+	
+		//looping
+		int x = 100;
+		int sum = 0;
+		
+		for (int y = 0; y<=x; y++) {
+			
+			sum += y;
+			
+		}
+		
+		System.out.println("The sum of whole number is: ");
+		
+		Thread.sleep(500);
+		
+		System.out.println(sum);
+
+	}
+
+}
