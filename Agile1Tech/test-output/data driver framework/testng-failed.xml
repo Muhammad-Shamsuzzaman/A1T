@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="Failed suite [data driver framework]">
+  <test parallel="tests" name="php Travels Sign Up(failed)">
+    <parameter name="expectedUrl" value="https://www.phptravels.net/register"/>
+    <parameter name="firstName" value="Tommy"/>
+    <parameter name="lastName" value="Lee"/>
+    <parameter name="expectedText" value="SIGN UP"/>
+    <parameter name="password" value="LeeToomy2"/>
+    <parameter name="phone" value="7031234567"/>
+    <parameter name="confirmPassword" value="LeeToomy2"/>
+    <parameter name="expectedTitle" value="Register"/>
+    <parameter name="email" value="tommylee1998@gmail.com"/>
+    <classes>
+      <class name="HomeWorkMar22.pageNewTours_hwG">
+        <methods>
+          <include name="beforeTest"/>
+        </methods>
+      </class> <!-- HomeWorkMar22.pageNewTours_hwG -->
+      <class name="HomeWorkMar22.phpTravels_hwG">
+        <methods>
+          <include name="validateUrl" invocation-numbers="0"/>
+          <include name="validatePassword" invocation-numbers="0"/>
+          <include name="validateConfirmPassword" invocation-numbers="0"/>
+          <include name="validateFirstName" invocation-numbers="0"/>
+          <include name="validateTitle" invocation-numbers="0"/>
+          <include name="validateLastName" invocation-numbers="0"/>
+          <include name="validatePhone" invocation-numbers="0"/>
+          <include name="validateSignUp" invocation-numbers="0"/>
+          <include name="validateEmail" invocation-numbers="0"/>
+          <include name="beforeTest"/>
+        </methods>
+      </class> <!-- HomeWorkMar22.phpTravels_hwG -->
+    </classes>
+  </test> <!-- php Travels Sign Up(failed) -->
+  <test parallel="tests" name="page new tours sign up(failed)">
+    <parameter name="lastName" value="Smith"/>
+    <parameter name="zipCode" value="22030"/>
+    <parameter name="address" value="10400 Eaton Pl, Suite 105"/>
+    <parameter name="city" value="Fairfax"/>
+    <parameter name="userName" value="msmith123"/>
+    <parameter name="expectedtitle" value="Register: Mercury Tours"/>
+    <parameter name="firstName" value="Michael"/>
+    <parameter name="password" value="Abcd@1234"/>
+    <parameter name="phone" value="7031234567"/>
+    <parameter name="confirmPassword" value="Abcd@1234"/>
+    <parameter name="state" value="Virginia"/>
+    <parameter name="email" value="msmith12@gmail.com"/>
+    <parameter name="expectedurl" value="http://newtours.demoaut.com/mercuryregister.php"/>
+    <classes>
+      <class name="HomeWorkMar22.pageNewTours_hwG">
+        <methods>
+          <include name="validateEmail" invocation-numbers="0"/>
+          <include name="validateFirstName" invocation-numbers="0"/>
+          <include name="validateCity" invocation-numbers="0"/>
+          <include name="validateLastName" invocation-numbers="0"/>
+          <include name="validateState" invocation-numbers="0"/>
+          <include name="validateUserName" invocation-numbers="0"/>
+          <include name="validateUrl" invocation-numbers="0"/>
+          <include name="validateAddress" invocation-numbers="0"/>
+          <include name="validatePhone" invocation-numbers="0"/>
+          <include name="beforeTest"/>
+          <include name="validateConfirmPassword" invocation-numbers="0"/>
+          <include name="validatePostalCode" invocation-numbers="0"/>
+          <include name="validateTitle" invocation-numbers="0"/>
+          <include name="validatePassword" invocation-numbers="0"/>
+          <include name="validateSubmit"/>
+        </methods>
+      </class> <!-- HomeWorkMar22.pageNewTours_hwG -->
+      <class name="HomeWorkMar22.phpTravels_hwG">
+        <methods>
+          <include name="beforeTest"/>
+        </methods>
+      </class> <!-- HomeWorkMar22.phpTravels_hwG -->
+    </classes>
+  </test> <!-- page new tours sign up(failed) -->
+</suite> <!-- Failed suite [data driver framework] -->

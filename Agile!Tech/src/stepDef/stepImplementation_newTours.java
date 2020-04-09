@@ -40,7 +40,7 @@ public class stepImplementation_newTours {
 
 	@When("^user enters firstname$")
 	public void user_enters_firstname()  {
-		nt.getFirstName().sendKeys("Tommy");
+		nt.getFirstName().sendKeys("Mohambeer");
 	}
 
 	@When("^user enters lastname$")
