@@ -73,8 +73,11 @@ public class pageNewTours_hwA {
 	@Test(priority = 1)
 	public void validateFirstName(){
 		
-		nt.getFirstName().sendKeys("Tommy");
-		Reporter.log("Entering Tommy in the First Name Text Box ", true);
+		WebElement firstName = nt.getFirstName();
+		firstName.sendKeys("Tommy");
+		boolean display = firstName.isDisplayed();
+		Assert.assertTrue(display);
+		
 	}
 	
 	@Test(priority = 2)

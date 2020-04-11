@@ -282,7 +282,7 @@ formatter.match({
   "location": "mercuryTours_step.user_is_in_the_home_page()"
 });
 formatter.result({
-  "duration": 11526811900,
+  "duration": 13122197500,
   "status": "passed"
 });
 formatter.match({
@@ -295,7 +295,7 @@ formatter.match({
   "location": "mercuryTours_step.user_enters_First_Name(String)"
 });
 formatter.result({
-  "duration": 208130200,
+  "duration": 221014700,
   "status": "passed"
 });
 formatter.match({
@@ -308,7 +308,7 @@ formatter.match({
   "location": "mercuryTours_step.user_enters_Last_Name(String)"
 });
 formatter.result({
-  "duration": 150203300,
+  "duration": 144514400,
   "status": "passed"
 });
 formatter.match({
@@ -321,7 +321,7 @@ formatter.match({
   "location": "mercuryTours_step.user_enters_Phone_Number(String)"
 });
 formatter.result({
-  "duration": 155078900,
+  "duration": 194033200,
   "status": "passed"
 });
 formatter.match({
@@ -334,7 +334,7 @@ formatter.match({
   "location": "mercuryTours_step.user_enter_Email_address(String)"
 });
 formatter.result({
-  "duration": 160833000,
+  "duration": 187821300,
   "status": "passed"
 });
 formatter.match({
@@ -347,7 +347,7 @@ formatter.match({
   "location": "mercuryTours_step.user_enters_Address(String)"
 });
 formatter.result({
-  "duration": 163290200,
+  "duration": 187234300,
   "status": "passed"
 });
 formatter.match({
@@ -360,7 +360,7 @@ formatter.match({
   "location": "mercuryTours_step.user_enters_City(String)"
 });
 formatter.result({
-  "duration": 104795800,
+  "duration": 140909200,
   "status": "passed"
 });
 formatter.match({
@@ -373,7 +373,7 @@ formatter.match({
   "location": "mercuryTours_step.user_enter_State(String)"
 });
 formatter.result({
-  "duration": 99129700,
+  "duration": 106541300,
   "status": "passed"
 });
 formatter.match({
@@ -386,7 +386,7 @@ formatter.match({
   "location": "mercuryTours_step.user_enters_Zip_Code(String)"
 });
 formatter.result({
-  "duration": 110424800,
+  "duration": 143191000,
   "status": "passed"
 });
 formatter.match({
@@ -399,7 +399,7 @@ formatter.match({
   "location": "mercuryTours_step.user_enters_User_Name(String)"
 });
 formatter.result({
-  "duration": 144224500,
+  "duration": 153971800,
   "status": "passed"
 });
 formatter.match({
@@ -412,7 +412,7 @@ formatter.match({
   "location": "mercuryTours_step.user_enters_Password(String)"
 });
 formatter.result({
-  "duration": 158964800,
+  "duration": 182544300,
   "status": "passed"
 });
 formatter.match({
@@ -425,21 +425,21 @@ formatter.match({
   "location": "mercuryTours_step.user_enters_Confirm_Password(String)"
 });
 formatter.result({
-  "duration": 149588300,
+  "duration": 170419800,
   "status": "passed"
 });
 formatter.match({
   "location": "mercuryTours_step.user_validates_the_submit_button()"
 });
 formatter.result({
-  "duration": 87985400,
+  "duration": 95079300,
   "status": "passed"
 });
 formatter.match({
   "location": "mercuryTours_step.user_close_the_browser()"
 });
 formatter.result({
-  "duration": 669703500,
+  "duration": 663539700,
   "status": "passed"
 });
 formatter.scenario({
@@ -557,7 +557,7 @@ formatter.match({
   "location": "mercuryTours_step.user_is_in_the_home_page()"
 });
 formatter.result({
-  "duration": 10820781300,
+  "duration": 10842316300,
   "status": "passed"
 });
 formatter.match({
@@ -570,7 +570,7 @@ formatter.match({
   "location": "mercuryTours_step.user_enters_First_Name(String)"
 });
 formatter.result({
-  "duration": 139959500,
+  "duration": 201671000,
   "status": "passed"
 });
 formatter.match({
@@ -583,7 +583,7 @@ formatter.match({
   "location": "mercuryTours_step.user_enters_Last_Name(String)"
 });
 formatter.result({
-  "duration": 100922000,
+  "duration": 135654100,
   "status": "passed"
 });
 formatter.match({
@@ -596,7 +596,7 @@ formatter.match({
   "location": "mercuryTours_step.user_enters_Phone_Number(String)"
 });
 formatter.result({
-  "duration": 133899500,
+  "duration": 175247700,
   "status": "passed"
 });
 formatter.match({
@@ -609,7 +609,7 @@ formatter.match({
   "location": "mercuryTours_step.user_enter_Email_address(String)"
 });
 formatter.result({
-  "duration": 103716100,
+  "duration": 183932900,
   "status": "passed"
 });
 formatter.match({
@@ -622,7 +622,7 @@ formatter.match({
   "location": "mercuryTours_step.user_enters_Address(String)"
 });
 formatter.result({
-  "duration": 111665600,
+  "duration": 209008500,
   "status": "passed"
 });
 formatter.match({
@@ -635,7 +635,7 @@ formatter.match({
   "location": "mercuryTours_step.user_enters_City(String)"
 });
 formatter.result({
-  "duration": 84452000,
+  "duration": 121037500,
   "status": "passed"
 });
 formatter.match({
@@ -648,7 +648,7 @@ formatter.match({
   "location": "mercuryTours_step.user_enter_State(String)"
 });
 formatter.result({
-  "duration": 63015200,
+  "duration": 111910100,
   "status": "passed"
 });
 formatter.match({
@@ -661,7 +661,7 @@ formatter.match({
   "location": "mercuryTours_step.user_enters_Zip_Code(String)"
 });
 formatter.result({
-  "duration": 74564600,
+  "duration": 130713300,
   "status": "passed"
 });
 formatter.match({
@@ -674,7 +674,7 @@ formatter.match({
   "location": "mercuryTours_step.user_enters_User_Name(String)"
 });
 formatter.result({
-  "duration": 170737800,
+  "duration": 157004300,
   "status": "passed"
 });
 formatter.match({
@@ -687,7 +687,7 @@ formatter.match({
   "location": "mercuryTours_step.user_enters_Password(String)"
 });
 formatter.result({
-  "duration": 78697800,
+  "duration": 172641000,
   "status": "passed"
 });
 formatter.match({
@@ -700,21 +700,21 @@ formatter.match({
   "location": "mercuryTours_step.user_enters_Confirm_Password(String)"
 });
 formatter.result({
-  "duration": 99729800,
+  "duration": 164007000,
   "status": "passed"
 });
 formatter.match({
   "location": "mercuryTours_step.user_validates_the_submit_button()"
 });
 formatter.result({
-  "duration": 67605500,
+  "duration": 82394100,
   "status": "passed"
 });
 formatter.match({
   "location": "mercuryTours_step.user_close_the_browser()"
 });
 formatter.result({
-  "duration": 627706200,
+  "duration": 675310600,
   "status": "passed"
 });
 formatter.scenario({
@@ -832,7 +832,7 @@ formatter.match({
   "location": "mercuryTours_step.user_is_in_the_home_page()"
 });
 formatter.result({
-  "duration": 10789009800,
+  "duration": 11532623100,
   "status": "passed"
 });
 formatter.match({
@@ -845,7 +845,7 @@ formatter.match({
   "location": "mercuryTours_step.user_enters_First_Name(String)"
 });
 formatter.result({
-  "duration": 108615600,
+  "duration": 124653600,
   "status": "passed"
 });
 formatter.match({
@@ -858,7 +858,7 @@ formatter.match({
   "location": "mercuryTours_step.user_enters_Last_Name(String)"
 });
 formatter.result({
-  "duration": 86778500,
+  "duration": 149294700,
   "status": "passed"
 });
 formatter.match({
@@ -871,7 +871,7 @@ formatter.match({
   "location": "mercuryTours_step.user_enters_Phone_Number(String)"
 });
 formatter.result({
-  "duration": 95411800,
+  "duration": 227034600,
   "status": "passed"
 });
 formatter.match({
@@ -884,7 +884,7 @@ formatter.match({
   "location": "mercuryTours_step.user_enter_Email_address(String)"
 });
 formatter.result({
-  "duration": 118134000,
+  "duration": 199664700,
   "status": "passed"
 });
 formatter.match({
@@ -897,7 +897,7 @@ formatter.match({
   "location": "mercuryTours_step.user_enters_Address(String)"
 });
 formatter.result({
-  "duration": 144197000,
+  "duration": 221944100,
   "status": "passed"
 });
 formatter.match({
@@ -910,7 +910,7 @@ formatter.match({
   "location": "mercuryTours_step.user_enters_City(String)"
 });
 formatter.result({
-  "duration": 94346000,
+  "duration": 167214000,
   "status": "passed"
 });
 formatter.match({
@@ -923,7 +923,7 @@ formatter.match({
   "location": "mercuryTours_step.user_enter_State(String)"
 });
 formatter.result({
-  "duration": 94243900,
+  "duration": 115724100,
   "status": "passed"
 });
 formatter.match({
@@ -936,7 +936,7 @@ formatter.match({
   "location": "mercuryTours_step.user_enters_Zip_Code(String)"
 });
 formatter.result({
-  "duration": 112116000,
+  "duration": 157000600,
   "status": "passed"
 });
 formatter.match({
@@ -949,7 +949,7 @@ formatter.match({
   "location": "mercuryTours_step.user_enters_User_Name(String)"
 });
 formatter.result({
-  "duration": 119451800,
+  "duration": 163126500,
   "status": "passed"
 });
 formatter.match({
@@ -962,7 +962,7 @@ formatter.match({
   "location": "mercuryTours_step.user_enters_Password(String)"
 });
 formatter.result({
-  "duration": 98513100,
+  "duration": 183951500,
   "status": "passed"
 });
 formatter.match({
@@ -975,21 +975,21 @@ formatter.match({
   "location": "mercuryTours_step.user_enters_Confirm_Password(String)"
 });
 formatter.result({
-  "duration": 135492700,
+  "duration": 166708800,
   "status": "passed"
 });
 formatter.match({
   "location": "mercuryTours_step.user_validates_the_submit_button()"
 });
 formatter.result({
-  "duration": 59659500,
+  "duration": 86640200,
   "status": "passed"
 });
 formatter.match({
   "location": "mercuryTours_step.user_close_the_browser()"
 });
 formatter.result({
-  "duration": 658743700,
+  "duration": 673524900,
   "status": "passed"
 });
 formatter.uri("mercurytours.feature");
@@ -1133,161 +1133,161 @@ formatter.match({
   "location": "mercuryTours_step.user_is_in_the_home_page()"
 });
 formatter.result({
-  "duration": 10879152200,
+  "duration": 11115540900,
   "status": "passed"
 });
 formatter.match({
   "location": "mercuryTours_step.user_clicks_on_the_home_link()"
 });
 formatter.result({
-  "duration": 732913100,
+  "duration": 1084921800,
   "status": "passed"
 });
 formatter.match({
   "location": "mercuryTours_step.user_will_validate_the_title_of_the_home_page()"
 });
 formatter.result({
-  "duration": 9979600,
+  "duration": 14101400,
   "status": "passed"
 });
 formatter.match({
   "location": "mercuryTours_step.user_will_go_back_to_home_page()"
 });
 formatter.result({
-  "duration": 375972500,
+  "duration": 488412500,
   "status": "passed"
 });
 formatter.match({
   "location": "mercuryTours_step.user_will_click_on_Flights_link()"
 });
 formatter.result({
-  "duration": 598010300,
+  "duration": 619274300,
   "status": "passed"
 });
 formatter.match({
   "location": "mercuryTours_step.user_will_validate_the_title_of_the_Flights_page()"
 });
 formatter.result({
-  "duration": 12109600,
+  "duration": 9740700,
   "status": "passed"
 });
 formatter.match({
   "location": "mercuryTours_step.user_will_go_back_to_home_page()"
 });
 formatter.result({
-  "duration": 306219800,
+  "duration": 548449800,
   "status": "passed"
 });
 formatter.match({
   "location": "mercuryTours_step.user_will_click_on_the_Hotels_link()"
 });
 formatter.result({
-  "duration": 382804300,
+  "duration": 841343800,
   "status": "passed"
 });
 formatter.match({
   "location": "mercuryTours_step.user_will_validate_the_title_of_the_Hotels_page()"
 });
 formatter.result({
-  "duration": 10675600,
+  "duration": 14565400,
   "status": "passed"
 });
 formatter.match({
   "location": "mercuryTours_step.user_will_go_back_to_home_page()"
 });
 formatter.result({
-  "duration": 301460000,
+  "duration": 489032100,
   "status": "passed"
 });
 formatter.match({
   "location": "mercuryTours_step.user_will_click_on_the_Car_Rentals_link()"
 });
 formatter.result({
-  "duration": 384808300,
+  "duration": 577865100,
   "status": "passed"
 });
 formatter.match({
   "location": "mercuryTours_step.user_will_validate_the_title_of_the_Car_Rentals_page()"
 });
 formatter.result({
-  "duration": 10787900,
+  "duration": 10434600,
   "status": "passed"
 });
 formatter.match({
   "location": "mercuryTours_step.user_will_go_back_to_home_page()"
 });
 formatter.result({
-  "duration": 364417800,
+  "duration": 689917700,
   "status": "passed"
 });
 formatter.match({
   "location": "mercuryTours_step.user_will_click_on_Cruises_link()"
 });
 formatter.result({
-  "duration": 481479500,
+  "duration": 858591600,
   "status": "passed"
 });
 formatter.match({
   "location": "mercuryTours_step.user_will_validate_the_title_of_the_Cruises_page()"
 });
 formatter.result({
-  "duration": 8610000,
+  "duration": 9722700,
   "status": "passed"
 });
 formatter.match({
   "location": "mercuryTours_step.user_will_go_back_to_home_page()"
 });
 formatter.result({
-  "duration": 313416900,
+  "duration": 304714500,
   "status": "passed"
 });
 formatter.match({
   "location": "mercuryTours_step.user_will_click_on_the_Destinations_link()"
 });
 formatter.result({
-  "duration": 395758400,
+  "duration": 455525200,
   "status": "passed"
 });
 formatter.match({
   "location": "mercuryTours_step.user_will_validate_the_title_of_the_Destinations_page()"
 });
 formatter.result({
-  "duration": 10065500,
+  "duration": 10272100,
   "status": "passed"
 });
 formatter.match({
   "location": "mercuryTours_step.user_will_go_back_to_home_page()"
 });
 formatter.result({
-  "duration": 298611900,
+  "duration": 327472000,
   "status": "passed"
 });
 formatter.match({
   "location": "mercuryTours_step.user_will_click_on_the_Vacations_link()"
 });
 formatter.result({
-  "duration": 363896200,
+  "duration": 418648100,
   "status": "passed"
 });
 formatter.match({
   "location": "mercuryTours_step.user_will_validate_the_title_of_the_Vacations_page()"
 });
 formatter.result({
-  "duration": 8494200,
+  "duration": 12931400,
   "status": "passed"
 });
 formatter.match({
   "location": "mercuryTours_step.user_will_go_back_to_home_page()"
 });
 formatter.result({
-  "duration": 288602300,
+  "duration": 294189200,
   "status": "passed"
 });
 formatter.match({
   "location": "mercuryTours_step.user_close_the_browser()"
 });
 formatter.result({
-  "duration": 649800700,
+  "duration": 666906300,
   "status": "passed"
 });
 });
