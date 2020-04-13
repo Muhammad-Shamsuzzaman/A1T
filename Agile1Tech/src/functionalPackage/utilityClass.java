@@ -11,7 +11,7 @@ public class utilityClass {
 	public double totalPrice;
 	public double totalInterest;
 	public double getMonthlyPayment;
-	
+	 
 	Scanner SC = new Scanner(System.in);
 
 	

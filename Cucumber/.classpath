@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="lib" path="cobertura-2.1.1.jar"/>
+	<classpathentry kind="lib" path="cucumber-core-1.2.4.jar"/>
+	<classpathentry kind="lib" path="cucumber-html-0.2.6.jar"/>
+	<classpathentry kind="lib" path="cucumber-java-1.2.4.jar"/>
+	<classpathentry kind="lib" path="cucumber-junit-1.2.4.jar"/>
+	<classpathentry kind="lib" path="cucumber-jvm-deps-1.0.5.jar"/>
+	<classpathentry kind="lib" path="cucumber-reporting-2.7.0.jar"/>
+	<classpathentry kind="lib" path="cucumber-testng-1.2.4.jar"/>
+	<classpathentry kind="lib" path="gherkin-2.12.2.jar"/>
+	<classpathentry kind="lib" path="junit-4.12.jar"/>
+	<classpathentry kind="lib" path="mockito-all-1.9.1-20110911.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
