@@ -11,7 +11,7 @@ public class HomeWorkD {
 	public static void main(String[] args) throws InterruptedException {
 
 		
-		System.setProperty("webdriver.chrome.driver", "C:\\Selenium\\chromedriver_win32\\chromedriver.exe");
+		//System.setProperty("webdriver.chrome.driver", "C:\\Selenium\\chromedriver_win32\\chromedriver.exe");
 		
 		WebDriver driver = new ChromeDriver();
 		

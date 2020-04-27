@@ -2,6 +2,7 @@ package HomeWorkMar22;
 
 import java.util.concurrent.TimeUnit;
 
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -39,6 +40,7 @@ public class yahooAccount_hwC {
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 		
 		driver.manage().window().maximize();
+		
 		
 	}
 	
@@ -112,8 +114,8 @@ public class yahooAccount_hwC {
 	public void validateMonth(){
 		
 		WebElement month = ya.getMonth();
-		Select monthmm = new Select(month);
-		monthmm.selectByVisibleText("February");
+		Select mm = new Select(month);
+		mm.selectByVisibleText("February");
 		Reporter.log("Entering February in the Month Text Box", true);
 		boolean display6 = month.isDisplayed();
 		Reporter.log("Verifying the Month is displayed", true);

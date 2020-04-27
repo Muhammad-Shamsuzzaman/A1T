@@ -117,7 +117,8 @@ import pageObjectModel.phpTravels;
 		Reporter.log("Verifying Url of the page", true);
 		String expectedUrl = "https://www.phptravels.net/register";
 	     
-	     Assert.assertEquals(actualUrl,expectedUrl);
+	     //Assert.assertEquals(actualUrl,expectedUrl);
+		Assert.assertEquals(actualUrl, expectedUrl);
 		
 	}
 	

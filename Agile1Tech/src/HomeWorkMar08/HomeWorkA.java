@@ -1,8 +1,8 @@
 package HomeWorkMar08;
 
-import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.By;
+import java.util.concurrent.TimeUnit;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -12,11 +12,11 @@ public class HomeWorkA {
 
 	public static void main(String[] args) throws InterruptedException {
 
-		System.setProperty("webdriver.ie.driver", "C:\\Selenium\\IEDriverServer_Win32_3.150.1\\IEDriverServer.exe");
+		//System.setProperty("webdriver.ie.driver", "C:\\Selenium\\IEDriverServer_Win32_3.150.1\\IEDriverServer.exe");
 		//System.setProperty("webdriver.chrome.driver", "C:\\Selenium\\chromedriver_win32\\chromedriver.exe");
 		
-		//WebDriver driver = new ChromeDriver();
-		WebDriver driver = new InternetExplorerDriver();
+		WebDriver driver = new ChromeDriver();
+		//WebDriver driver = new InternetExplorerDriver();
 		//driver.manage().deleteAllCookies();
 		
 		driver.get("http://newtours.demoaut.com/mercuryregister.php");
