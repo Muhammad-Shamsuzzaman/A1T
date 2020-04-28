@@ -6,6 +6,8 @@ import java.util.concurrent.TimeUnit;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.ie.InternetExplorerDriver;
 import org.testng.Reporter;
 
 import cucumber.api.java.en.Given;
@@ -19,24 +21,52 @@ public class mercuryTours_step {
 	WebDriver driver;
 	newTours nt;
 	
-	@Given("^user is in the home page$")
-	public void user_is_in_the_home_page() throws InterruptedException {
-		System.setProperty("webdriver.chrome.driver", "C:\\Selenium\\chromedriver_win32\\chromedriver.exe");
+	
+	    
+	@Given("^user enters the browser name \"([^\"]*)\"$")
+	public void user_enters_the_browser_name(String browserName){
 		
-		driver = new ChromeDriver();
+		if(browserName.equalsIgnoreCase("firefox")) {
+		System.setProperty("webdriver.gecko.driver","C:\\Selenium\\geckodriver-v0.26.0-win64\\geckodriver.exe");
+		driver = new FirefoxDriver();
+		nt = new newTours(driver);
+	}
+	
+	else if(browserName.equalsIgnoreCase("chrome")){
+	System.setProperty("webdriver.chrome.driver", "C:\\Selenium\\chromedriver_win32\\chromedriver.exe");
+	
+	driver = new ChromeDriver();
+	nt = new newTours(driver);
+	}
+	
+	else if(browserName.equalsIgnoreCase("InternetExplorer")) {
+		
+		System.setProperty("webdriver.ie.driver", "C:\\Selenium\\IEDriverServer_Win32_3.150.1\\IEDriverServer.exe");
+		
+		driver = new InternetExplorerDriver();
 		nt = new newTours(driver);
 		
+	}
+		
+	    
+	}
+
+	@When("^user is in the home page$")
+	public void user_is_in_the_home_page() throws InterruptedException {
 		driver.manage().deleteAllCookies();
 		
-		Thread.sleep(1000);
-		
-		driver.get("http://newtours.demoaut.com/mercuryregister.php");
-		
-		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
-		
-		driver.manage().window().maximize();
-	   
+				Thread.sleep(1000);
+				
+				driver.get("http://newtours.demoaut.com/mercuryregister.php");
+				
+				driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+				
+				driver.manage().window().maximize();
 	}
+
+	
+	
+	
 	@When("^user clicks on the home link$")
 	public void user_clicks_on_the_home_link() {
 	    nt.home().click();

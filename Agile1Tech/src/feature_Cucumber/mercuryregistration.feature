@@ -2,8 +2,9 @@
 Feature: Mercury Registration
 
   Scenario Outline: Fill up the Mercury Registration Page
-    Given user is in the home page
-    When user enters First Name "<firstName>"
+    Given user enters the browser name "<browserName>"
+    When user is in the home page
+    And user enters First Name "<firstName>"
     And user enters Last Name "<lastName>"
     And user enters Phone Number "<phoneNumber>"
     And user enter Email address "<email>"
@@ -18,7 +19,19 @@ Feature: Mercury Registration
     Then user close the browser
 
     Examples: 
-      | firstName | lastName | phoneNumber | email      | address       | city | state | zipCode | userName | password  | confirmPassword |
-      | Steve     | Jobs     |  1234567890 | sj@aol.com | 123 Main St   | Troy | MI    |   48085 | sj091234 | Sjobs@123 | Sjobs@123       |
-      | Mustang   | Jones    |  7234567890 | mj@aol.com | 1321 Main St  | Troy | MI    |   48085 | sj091234 | Sjobs@154 | Sjobs@154       |
-      | Mandy     | Moore    |  1237667890 | mm@aol.com | 12335 Main St | Troy | MI    |   48085 | sj091744 | Sjobs@150 | Sjobs@150       |
+      | firstName | lastName | phoneNumber | email      | address       | city | state | zipCode | userName | password  | confirmPassword | browserName |
+      | Steve     | Jobs     |  1234567890 | sj@aol.com | 123 Main St   | Troy | MI    |   48085 | sj091234 | Sjobs@123 | Sjobs@123       | chrome      |
+      | Mustang   | Jones    |  7234567890 | mj@aol.com | 1321 Main St  | Troy | MI    |   48085 | sj091234 | Sjobs@154 | Sjobs@154       | chrome      |
+      | Mandy     | Moore    |  1237667890 | mm@aol.com | 12335 Main St | Troy | MI    |   48085 | sj091744 | Sjobs@150 | Sjobs@150       | chrome      |
+
+    Examples: 
+      | firstName | lastName | phoneNumber | email      | address       | city | state | zipCode | userName | password  | confirmPassword | browserName |
+      | Steve     | Jobs     |  1234567890 | sj@aol.com | 123 Main St   | Troy | MI    |   48085 | sj091234 | Sjobs@123 | Sjobs@123       | firefox     |
+      | Mustang   | Jones    |  7234567890 | mj@aol.com | 1321 Main St  | Troy | MI    |   48085 | sj091234 | Sjobs@154 | Sjobs@154       | firefox     |
+      | Mandy     | Moore    |  1237667890 | mm@aol.com | 12335 Main St | Troy | MI    |   48085 | sj091744 | Sjobs@150 | Sjobs@150       | firefox     |
+
+    Examples: 
+      | firstName | lastName | phoneNumber | email      | address       | city | state | zipCode | userName | password  | confirmPassword | browserName      |
+      | Steve     | Jobs     |  1234567890 | sj@aol.com | 123 Main St   | Troy | MI    |   48085 | sj091234 | Sjobs@123 | Sjobs@123       | InternetExplorer |
+      | Mustang   | Jones    |  7234567890 | mj@aol.com | 1321 Main St  | Troy | MI    |   48085 | sj091234 | Sjobs@154 | Sjobs@154       | InternetExplorer |
+      | Mandy     | Moore    |  1237667890 | mm@aol.com | 12335 Main St | Troy | MI    |   48085 | sj091744 | Sjobs@150 | Sjobs@150       | InternetExplorer |
