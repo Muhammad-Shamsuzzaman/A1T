@@ -85,13 +85,9 @@ WebDriver driver;
 		}
     public WebElement Country() {
 		
-WebElement Country = driver.findElement(By.name("country"));
-		
-		
+		WebElement Country = driver.findElement(By.name("country"));
 		
 		return Country ;
-		
-		
 		
 		}
 	
