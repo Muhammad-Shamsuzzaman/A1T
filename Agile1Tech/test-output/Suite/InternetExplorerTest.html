@@ -1,0 +1,241 @@
+<html>
+<head>
+<title>TestNG:  InternetExplorerTest</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>InternetExplorerTest</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>14/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Mon Jun 08 20:07:39 EDT 2020</td>
+</tr>
+<tr><td>Total time:</td><td>23 seconds (23188 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='HomeWorkMar22.pageNewTours_hwA.validateAddress()'><b>validateAddress</b><br>Test class: HomeWorkMar22.pageNewTours_hwA<br/>
+<a href="#Output-56576588" onClick='toggleBox("Output-56576588", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-56576588" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-56576588">
+Entering 10400 Eaton Pl, Suite 105 in the Address Text Box <br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>HomeWorkMar22.pageNewTours_hwA@7bd4937b</td></tr>
+<tr>
+<td title='HomeWorkMar22.pageNewTours_hwA.validateCity()'><b>validateCity</b><br>Test class: HomeWorkMar22.pageNewTours_hwA<br/>
+<a href="#Output-1209188896" onClick='toggleBox("Output-1209188896", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1209188896" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1209188896">
+Entering Fairfax in the City Text Box <br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>HomeWorkMar22.pageNewTours_hwA@7bd4937b</td></tr>
+<tr>
+<td title='HomeWorkMar22.pageNewTours_hwA.validateConfirmPassword()'><b>validateConfirmPassword</b><br>Test class: HomeWorkMar22.pageNewTours_hwA<br/>
+<a href="#Output-202896621" onClick='toggleBox("Output-202896621", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-202896621" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-202896621">
+Entering Abcd1234 in the Confirm Password Text Box <br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>HomeWorkMar22.pageNewTours_hwA@7bd4937b</td></tr>
+<tr>
+<td title='HomeWorkMar22.pageNewTours_hwA.validateEmail()'><b>validateEmail</b><br>Test class: HomeWorkMar22.pageNewTours_hwA<br/>
+<a href="#Output-542150704" onClick='toggleBox("Output-542150704", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-542150704" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-542150704">
+Entering tommylee@yahoo.com in the Email Text Box <br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>HomeWorkMar22.pageNewTours_hwA@7bd4937b</td></tr>
+<tr>
+<td title='HomeWorkMar22.pageNewTours_hwA.validateFirstName()'><b>validateFirstName</b><br>Test class: HomeWorkMar22.pageNewTours_hwA</td>
+<td></td>
+<td>1</td>
+<td>HomeWorkMar22.pageNewTours_hwA@7bd4937b</td></tr>
+<tr>
+<td title='HomeWorkMar22.pageNewTours_hwA.validateLastName()'><b>validateLastName</b><br>Test class: HomeWorkMar22.pageNewTours_hwA<br/>
+<a href="#Output-1624114202" onClick='toggleBox("Output-1624114202", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1624114202" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1624114202">
+Entering Lee in the Last Name Text Box <br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>HomeWorkMar22.pageNewTours_hwA@7bd4937b</td></tr>
+<tr>
+<td title='HomeWorkMar22.pageNewTours_hwA.validatePassword()'><b>validatePassword</b><br>Test class: HomeWorkMar22.pageNewTours_hwA<br/>
+<a href="#Output-1982562710" onClick='toggleBox("Output-1982562710", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1982562710" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1982562710">
+Entering Abcd1234 in the Password Text Box <br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>HomeWorkMar22.pageNewTours_hwA@7bd4937b</td></tr>
+<tr>
+<td title='HomeWorkMar22.pageNewTours_hwA.validatePhone()'><b>validatePhone</b><br>Test class: HomeWorkMar22.pageNewTours_hwA<br/>
+<a href="#Output-1026538667" onClick='toggleBox("Output-1026538667", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1026538667" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1026538667">
+Entering 7031234567 in the Phone Text Box <br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>HomeWorkMar22.pageNewTours_hwA@7bd4937b</td></tr>
+<tr>
+<td title='HomeWorkMar22.pageNewTours_hwA.validatePostalCode()'><b>validatePostalCode</b><br>Test class: HomeWorkMar22.pageNewTours_hwA<br/>
+<a href="#Output-757661451" onClick='toggleBox("Output-757661451", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-757661451" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-757661451">
+Entering 22030 in the Postal Code Text Box <br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>HomeWorkMar22.pageNewTours_hwA@7bd4937b</td></tr>
+<tr>
+<td title='HomeWorkMar22.pageNewTours_hwA.validateState()'><b>validateState</b><br>Test class: HomeWorkMar22.pageNewTours_hwA<br/>
+<a href="#Output-992540733" onClick='toggleBox("Output-992540733", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-992540733" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-992540733">
+Entering Virginia in the State Text Box <br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>HomeWorkMar22.pageNewTours_hwA@7bd4937b</td></tr>
+<tr>
+<td title='HomeWorkMar22.pageNewTours_hwA.validateSubmit()'><b>validateSubmit</b><br>Test class: HomeWorkMar22.pageNewTours_hwA<br/>
+<a href="#Output-1290834181" onClick='toggleBox("Output-1290834181", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1290834181" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1290834181">
+Verifying the submit button is enabled<br/>
+Verifying the submit button is displayed<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>HomeWorkMar22.pageNewTours_hwA@7bd4937b</td></tr>
+<tr>
+<td title='HomeWorkMar22.pageNewTours_hwA.validateTitle()'><b>validateTitle</b><br>Test class: HomeWorkMar22.pageNewTours_hwA<br/>
+<a href="#Output-996869127" onClick='toggleBox("Output-996869127", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-996869127" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-996869127">
+Reading the title of the page<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>HomeWorkMar22.pageNewTours_hwA@7bd4937b</td></tr>
+<tr>
+<td title='HomeWorkMar22.pageNewTours_hwA.validateUrl()'><b>validateUrl</b><br>Test class: HomeWorkMar22.pageNewTours_hwA<br/>
+<a href="#Output-88602810" onClick='toggleBox("Output-88602810", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-88602810" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-88602810">
+Reading the Url of the page<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>HomeWorkMar22.pageNewTours_hwA@7bd4937b</td></tr>
+<tr>
+<td title='HomeWorkMar22.pageNewTours_hwA.validateUserName()'><b>validateUserName</b><br>Test class: HomeWorkMar22.pageNewTours_hwA<br/>
+<a href="#Output-1604700303" onClick='toggleBox("Output-1604700303", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1604700303" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1604700303">
+Entering mcc1919 in the User Name Text Box <br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>HomeWorkMar22.pageNewTours_hwA@7bd4937b</td></tr>
+</table><p>
+</body>
+</html>

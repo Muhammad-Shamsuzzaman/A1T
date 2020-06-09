@@ -1,0 +1,244 @@
+<html>
+<head>
+<title>TestNG:  CrossBrowserTesting</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>CrossBrowserTesting</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>13/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Mon Jun 08 20:05:57 EDT 2020</td>
+</tr>
+<tr><td>Total time:</td><td>20 seconds (20310 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='HomeWorkMar22.yahooAccount_hwC.validateContinueButton()'><b>validateContinueButton</b><br>Test class: HomeWorkMar22.yahooAccount_hwC<br/>
+<a href="#Output-103787801" onClick='toggleBox("Output-103787801", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-103787801" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-103787801">
+Verifying the Continue Button is displayed<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>HomeWorkMar22.yahooAccount_hwC@123f1134</td></tr>
+<tr>
+<td title='HomeWorkMar22.yahooAccount_hwC.validateDate()'><b>validateDate</b><br>Test class: HomeWorkMar22.yahooAccount_hwC<br/>
+<a href="#Output-1073741635" onClick='toggleBox("Output-1073741635", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1073741635" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1073741635">
+Entering 01 in the Day Text Box<br/>
+Verifying the Day is displayed<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>HomeWorkMar22.yahooAccount_hwC@123f1134</td></tr>
+<tr>
+<td title='HomeWorkMar22.yahooAccount_hwC.validateFirstName()'><b>validateFirstName</b><br>Test class: HomeWorkMar22.yahooAccount_hwC<br/>
+<a href="#Output-2123222442" onClick='toggleBox("Output-2123222442", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-2123222442" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2123222442">
+Entering Thomas in the First Name Text Box<br/>
+Verifying First Name is displayed<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>HomeWorkMar22.yahooAccount_hwC@123f1134</td></tr>
+<tr>
+<td title='HomeWorkMar22.yahooAccount_hwC.validateGender()'><b>validateGender</b><br>Test class: HomeWorkMar22.yahooAccount_hwC<br/>
+<a href="#Output-453398853" onClick='toggleBox("Output-453398853", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-453398853" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-453398853">
+Entering Male in the Gender Text Box<br/>
+Verifying the Gender is displayed<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>HomeWorkMar22.yahooAccount_hwC@123f1134</td></tr>
+<tr>
+<td title='HomeWorkMar22.yahooAccount_hwC.validateId()'><b>validateId</b><br>Test class: HomeWorkMar22.yahooAccount_hwC<br/>
+<a href="#Output-191945292" onClick='toggleBox("Output-191945292", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-191945292" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-191945292">
+Entering thomasmill193 in the Email Address Text Box<br/>
+Verifying Email Address is displayed<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>HomeWorkMar22.yahooAccount_hwC@123f1134</td></tr>
+<tr>
+<td title='HomeWorkMar22.yahooAccount_hwC.validateLastName()'><b>validateLastName</b><br>Test class: HomeWorkMar22.yahooAccount_hwC<br/>
+<a href="#Output-975033189" onClick='toggleBox("Output-975033189", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-975033189" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-975033189">
+Entering Mill in the Last Name Text Box<br/>
+Verifying Last Name is displayed<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>HomeWorkMar22.yahooAccount_hwC@123f1134</td></tr>
+<tr>
+<td title='HomeWorkMar22.yahooAccount_hwC.validateMonth()'><b>validateMonth</b><br>Test class: HomeWorkMar22.yahooAccount_hwC<br/>
+<a href="#Output-1967496309" onClick='toggleBox("Output-1967496309", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1967496309" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1967496309">
+Entering February in the Month Text Box<br/>
+Verifying the Month is displayed<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>HomeWorkMar22.yahooAccount_hwC@123f1134</td></tr>
+<tr>
+<td title='HomeWorkMar22.yahooAccount_hwC.validatePassword()'><b>validatePassword</b><br>Test class: HomeWorkMar22.yahooAccount_hwC<br/>
+<a href="#Output-1178290888" onClick='toggleBox("Output-1178290888", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1178290888" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1178290888">
+Entering ABcd@12345678 in the Password Text Box<br/>
+Verifying Password is displayed<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>HomeWorkMar22.yahooAccount_hwC@123f1134</td></tr>
+<tr>
+<td title='HomeWorkMar22.yahooAccount_hwC.validatePhone()'><b>validatePhone</b><br>Test class: HomeWorkMar22.yahooAccount_hwC<br/>
+<a href="#Output-396918327" onClick='toggleBox("Output-396918327", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-396918327" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-396918327">
+Entering 7031234567 in the Phone Text Box<br/>
+Verifying the Phone is displayed<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>HomeWorkMar22.yahooAccount_hwC@123f1134</td></tr>
+<tr>
+<td title='HomeWorkMar22.yahooAccount_hwC.validatePrivacyPolicy()'><b>validatePrivacyPolicy</b><br>Test class: HomeWorkMar22.yahooAccount_hwC<br/>
+<a href="#Output-837246227" onClick='toggleBox("Output-837246227", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-837246227" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-837246227">
+Verifying the Privacy Policy is displayed<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>HomeWorkMar22.yahooAccount_hwC@123f1134</td></tr>
+<tr>
+<td title='HomeWorkMar22.yahooAccount_hwC.validateSignIn()'><b>validateSignIn</b><br>Test class: HomeWorkMar22.yahooAccount_hwC<br/>
+<a href="#Output-1049590050" onClick='toggleBox("Output-1049590050", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1049590050" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1049590050">
+Verifying the Sign In is displayed<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>HomeWorkMar22.yahooAccount_hwC@123f1134</td></tr>
+<tr>
+<td title='HomeWorkMar22.yahooAccount_hwC.validateTerms()'><b>validateTerms</b><br>Test class: HomeWorkMar22.yahooAccount_hwC<br/>
+<a href="#Output-1060519157" onClick='toggleBox("Output-1060519157", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1060519157" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1060519157">
+Verifying the Terms are displayed<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>HomeWorkMar22.yahooAccount_hwC@123f1134</td></tr>
+<tr>
+<td title='HomeWorkMar22.yahooAccount_hwC.validateYear()'><b>validateYear</b><br>Test class: HomeWorkMar22.yahooAccount_hwC<br/>
+<a href="#Output-1620459733" onClick='toggleBox("Output-1620459733", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1620459733" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1620459733">
+Entering 1995 in the Year Text Box<br/>
+Verifying the Year is displayed<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>HomeWorkMar22.yahooAccount_hwC@123f1134</td></tr>
+</table><p>
+</body>
+</html>

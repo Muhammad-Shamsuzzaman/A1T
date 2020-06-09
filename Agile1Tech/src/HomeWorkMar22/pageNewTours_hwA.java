@@ -29,20 +29,20 @@ public class pageNewTours_hwA {
 	@Parameters("browser")
 	public void beforeTest(String browserName) throws InterruptedException{
 		
-		if(browserName.equalsIgnoreCase("firefox")) {
+		if(browserName.equals("firefox")) {
 			System.setProperty("webdriver.gecko.driver","C:\\Selenium\\geckodriver-v0.26.0-win64\\geckodriver.exe");
 			driver = new FirefoxDriver();
 			nt = new newTours(driver);
 		}
 		
-		else if(browserName.equalsIgnoreCase("chrome")){
+		else if(browserName.equals("chrome")){
 		System.setProperty("webdriver.chrome.driver", "C:\\Selenium\\chromedriver_win32\\chromedriver.exe");
 		
 		driver = new ChromeDriver();
 		nt = new newTours(driver);
 		}
 		
-		else if(browserName.equalsIgnoreCase("InternetExplorer")) {
+		else if(browserName.equals("InternetExplorer")) {
 			
 			System.setProperty("webdriver.ie.driver", "C:\\Selenium\\IEDriverServer_Win32_3.150.1\\IEDriverServer.exe");
 			
@@ -63,6 +63,11 @@ public class pageNewTours_hwA {
 	
 	}
 	
+	private boolean browserName(String string) {
+		// TODO Auto-generated method stub
+		return false;
+	}
+
 	@BeforeMethod
 	public void beforeMethod() throws InterruptedException {
 		
