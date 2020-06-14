@@ -19,6 +19,7 @@ public class findElements {
 		driver.get("https://www.yahoo.com/");
 		
 		List<WebElement> elements = driver.findElements(By.tagName("a"));
+		System.out.println("Total Link = " + elements.size());
 		
 		for (WebElement currentElements : elements) {
 			
@@ -27,7 +28,10 @@ public class findElements {
 			System.out.println(linkText);
 			
 			
+			
+			
 		}
+		System.out.println("Test Completed");
 
 	}
 
